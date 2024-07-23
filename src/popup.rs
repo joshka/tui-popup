@@ -45,7 +45,7 @@ pub struct Popup<'content, W: SizedWidgetRef> {
     /// The symbols used to render the border.
     pub border_set: Set,
     /// Border style
-    border_style: Style,
+    pub border_style: Style,
 }
 
 /// A trait for widgets that have a fixed size.
